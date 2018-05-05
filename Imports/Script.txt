@@ -14,10 +14,11 @@ Botão "Nome do jogo"
 
 Imagem do investigador, com um plano mais aberto (ou de costas), mostrando a porta de entrada do escritório (logo de olho no vidro, escrito PI, pro lado de fora)
 
-Pensamento
-  "Nessa cidade, nem tudo era oque parecia ser.
-  Estava em meu escritório, quando aconteceu. 'Mais um dia nessa pocilga', pensei para mim mesmo.
-  Foi quando eu a vi."
+Texto
+  Pensamento
+    "Nessa cidade, nem tudo era oque parecia ser.
+    Estava em meu escritório, quando aconteceu. 'Mais um dia nessa pocilga', pensei para mim mesmo.
+    Foi quando eu a vi."
 
 Transição automática de cena
 
@@ -27,19 +28,20 @@ Imagem da Loira, no meio do escritório, porta aberta ao fundo.
 Loira alta, magra, com vestido de peça única até a canela, vermelho vivo e um chapéu de abas longas cobrindo a parte dos olhos.
 Carrega a carteira (daquelas mais alongadas) nas mãos, juntas na frente do corpo.
 
-Diálogo
-  "Ouvi dizer que você é o melhor investigador particular dessa cidade. Ouvi errado?" - Loira
+Texto
+  Diálogo
+    "Ouvi dizer que você é o melhor investigador particular dessa cidade. Ouvi errado?" - Loira
 
-  "Isso depende, moça, para qual serviço. Deixe eu apostar, perdeu a sua cachorrinha no parque?" - Investigador
+    "Isso depende, moça, para qual serviço. Deixe eu apostar, perdeu a sua cachorrinha no parque?" - Investigador
 
-  "A questão é pouco mais séria que isso, infelizmente. Minha casa foi invadida, e meu marido sumiu.
-  Oswald não tem o costume de sair sumir assim, e não sei a quem pedir ajuda." - Loira
+    "A questão é pouco mais séria que isso, infelizmente. Minha casa foi invadida, e meu marido sumiu.
+    Oswald não tem o costume de sair sumir assim, e não sei a quem pedir ajuda." - Loira
 
-  "A senhora tem telefone? A telefonista pode te colocar em contato com o delegado. Um senhor de meia-idade não some assim de repente." - Investigador
+    "A senhora tem telefone? A telefonista pode te colocar em contato com o delegado. Um senhor de meia-idade não some assim de repente." - Investigador
 
-  "A polícia não vai me ajudar, não no MEU tempo. Mas bem, se não é por dinheiro que o senhor trabalha, procurarei quem o faça." - Loira
+    "A polícia não vai me ajudar, não no MEU tempo. Mas bem, se não é por dinheiro que o senhor trabalha, procurarei quem o faça." - Loira
 
-  "Cavalheirismo é para os jovens, minha senhora. Mas bem, aceito o serviço. Deixe-me pegar meu casaco." - Investigador
+    "Cavalheirismo é para os jovens, minha senhora. Mas bem, aceito o serviço. Deixe-me pegar meu casaco." - Investigador
 
 Transição automática de cena
 
@@ -49,66 +51,131 @@ Centro do escritório de Oswald.
 Mesa pesada de madeira maciça com poltrona de couro. Gavetas jogadas no chão, papel por toda parte.
 Duas janelas ao fundo, uma delas aberta. Uma pilha de caixas e livros não arquivados encostada abaixo da janela. As caixas abaixo da janela parecem jogadas e amassadas em alguns pontos.
 
-Diálogo (Quando entra pela primeira vez na sala)
-  "Minha senhora, antes de me contar tudo, e entenda, a senhora vai me contar tudo, quero que entenda que eu vou te fazer perguntas.
-  E essas perguntas podem não ser divertidas. Mas espero que saiba que meu serviço depende da sua *honestidade*[0]." - Investigador
+Texto
+  Diálogo (Quando entra pela primeira vez na sala)
+    "Minha senhora, antes de me contar tudo, e entenda, a senhora vai me contar tudo, quero que entenda que eu vou te fazer perguntas.
+    E essas perguntas podem não ser divertidas. Mas espero que saiba que meu serviço depende da sua *honestidade*[0]." - Investigador
 
-Pop-up de texto Tutorial
-  "Você pode clicar nas palavras em *destaque*, para fazer perguntas sobre elas."
-Pop-up some quando o jogador clica na [0].
+  Pop-up de texto Tutorial
+    "Você pode clicar nas palavras em *destaque*, para fazer perguntas sobre elas."
+  Pop-up some quando o jogador clica na [0].
 
-Diálogo, Resposta [0]
-  "Honestidade? Você duvida da minha honestidade, já? Estou te pagando para me ajudar, não me humilhar. Entenda seu lugar." - Loira
+  Diálogo, Resposta [0]
+    "Honestidade? Você duvida da minha honestidade, já? Estou te pagando para me ajudar, não me humilhar. Entenda seu lugar." - Loira
 
-  "Calma, minha senhora, calma. Não quis dizer isso.
-  Na minha profissão, é mais comum mentirem para mim do que o oposto, apenas.
-  Enfim, por favor, conte-me oque a senhora sabe." - Investigador
-
-Diálogo
-  "Pois bem...
-  Aqui era onde Oswald *trabalhava*[1]. Sua vida inteira está nestes papeis, nessas gavetas.
-  *Voltei*[2] para casa, e dei de frente com isto, com essa zona, esse absurdo.
-  A porta do escritório ainda estava *trancada*[3], e nenhum dos empregados pode sequer entrar aqui.
-  O único compromisso de Oswald era um jantar hoje a noite, mas foi *desmarcado*[4] ontem."
-
-Pensamento, Reposta [1]
-  "Trabalhava? Ela tem tanta certeza assim que ele morreu?"
+    "Calma, minha senhora, calma. Não quis dizer isso.
+    Na minha profissão, é mais comum mentirem para mim do que o oposto, apenas.
+    Enfim, por favor, conte-me oque a senhora sabe." - Investigador
 
   Diálogo
-  "Seu marido trabalha com oquê exatamente, senhora..." - Investigador
+    "Pois bem...
+    Aqui era onde Oswald *trabalhava*[1]. Sua vida inteira está nestes papeis, nessas gavetas.
+    *Voltei*[2] para casa, e dei de frente com isto, com essa zona, esse absurdo.
+    A porta do escritório ainda estava *trancada*[3], e nenhum dos empregados pode sequer entrar aqui.
+    O único compromisso de Oswald era um jantar hoje a noite, mas foi *desmarcado*[4] ontem."
 
-  "Jean. Jean Fountainne.
-  Meu marido cuida dos negócios da família. As indústrias Fountainne, conhece?
-  É uma posição com sua certa dose de inimigos." - Loira
+  Pensamento, Reposta [1]
+    "Trabalhava? Ela tem tanta certeza assim que ele morreu?"
 
-Diálogo, Reposta [2]
-  "Apenas para confirmar, a senhora estava fora de casa durante o sumiço de seu marido, certo?
-  Se não se importa, onde estava nessa hora?" - Investigador
+    Diálogo
+    "Seu marido trabalha com oquê exatamente, senhora..." - Investigador
 
-  "Sim, estava. Sou uma mulher muito atarefada.
-  Estava em uma reunião de negócios, na parte norte da cidade." - Loira
+    "Jean. Jean Fountainne.
+    Meu marido cuida dos negócios da família. As indústrias Fountainne, conhece?
+    É uma posição com sua certa dose de inimigos." - Loira
 
-  Pensamento
-  "Ela estava visivelmente incomodada com minha pergunta. Mas mulheres poderosas raramente gostam de dar explicações."
+  Diálogo, Reposta [2]
+    "Apenas para confirmar, a senhora estava fora de casa durante o sumiço de seu marido, certo?
+    Se não se importa, onde estava nessa hora?" - Investigador
 
-Diálogo, Resposta [3]
-  "O escritório só tem um acesso, certo? E essa chave fica com quem?" - Investigador
+    "Sim, estava. Sou uma mulher muito atarefada.
+    Estava em uma reunião de negócios, na parte norte da cidade." - Loira
 
-  "Com o senhor Oswald, é claro. Ninguém mais tem acesso." - Loira
+    Pensamento
+    "Ela estava visivelmente incomodada com minha pergunta. Mas mulheres poderosas raramente gostam de dar explicações."
 
-Diálogo, Reposta [4]
-  "Desmarcado, é?" - Investigador
+  Diálogo, Resposta [3], sem a Chave (Item 1)
+    "O escritório só tem um acesso, certo? E essa chave fica com quem?" - Investigador
 
-  "Sim. Uma transação financeira que parou de fazer sentido." - Loira
+    "Com o senhor Oswald, é claro. Ninguém mais tem acesso." - Loira
 
+  Pensamento, Reposta [3], com a chave (Item 1)
+    "Deixe me ver.. É, era oque eu esperava."
+    Pula pra cena 3.1.1
+
+  Diálogo, Reposta [4]
+    "Desmarcado, é?" - Investigador
+
+    "Sim. Uma transação financeira que parou de fazer sentido." - Loira
+
+Interações
+  Gavetas no chão
+    Pensamento
+    "As gavetas foram todas reviradas, com excessão de uma, ainda trancada.
+    Quem quer que tenha passado por aqui, fez um bom trabalho. Este lugar está uma bagunça."
+
+  Papeis espalhados
+    Pensamento
+    "Folhas jogadas em todas as direções, parece que quem passou aqui estava procurando alguma coisa.
+    Planilhas, cartas, cartões de ponto, tudo relacionado as indústrias. Não parecem informações sigilosas."
+
+  Copo de Uísque
+    Pensamento
+    "O copo não está vazio, mas é água. Um homem desse porte não bebe água em copo de uísque.
+    Quem esteve bebendo isso não saiu daqui com pressa, bebeu toda a bebida, e deixou só o gelo."
 
 
 Transição para 3.2 e 3.3 por comando do jogador
+Transição para 3.1.1 com trigger na resposta 3, com item 1
+
+
+[3.1.1 - Dentro da Gaveta]
+
+Gaveta da escrivaninha aberta
+Um caderninho de capa de couro, com as iniciais O.F.F. gravadas, com marcador de fita vermelha.
+Sobre ele, um revolver prateado polido, com cabo de madeira. Algumas balas jogadas no fundo da gaveta.
+
+Interações
+  Magnum
+    Pensamento
+    "Smith & Wesson .44 série especial. 13 centímetros de cano para melhor pontaria, armação tipo N, acabamento em níquel.
+    Três salários e meio de um oficial da polícia. Não vale muito sem pontaria, mas pelo menos intimida.
+    Todas as balas no tambor, mais algumas de reserva. Aposto que nunca foi nem testada. Uma pena."
+
+  Caderno
+    Pensamento
+    "Uma agenda pessoal. O.F.F., Oswald F. Fountainne. É, é o meu cara.
+    Datas, nomes e locais, isso aqui vale ouro. Deixe me ver..
+    Ontem, 12h15, almoço com Hewitt. Marcado com um visto. 16h, coquetéis com o prefeito. Às 19h40, reunião com McMillan, cancelada.
+    Para hoje, 19h40, reunião com McMillan. De novo. E parece que não foi cancelada, afinal." (Gatilho 1)
 
 [3.2 - Esquerda do escritório]
 
 Lateral esquerda do escritório de Oswald
+Estante de livros, cobrindo quase toda a parede. Livros de diversos tamanhos e cores, ainda organizados, mesmo que de alguma maneira não clara a primeiro momento.
+A parte de cima da estante tem basicamente apenas livros de lombada grossa, cinza escura. Nenhum livro da estante foi tocado.
 
+Interações
+  Livros cinza do topo
+    Pensamento
+    "Deixe-me ver. Estes livros aqui. São a contabilidade dos últimos anos. Pelo menos 20 anos de contabilidade estão aqui, em perfeita ordem.
+    Quem quer que tenha feito essa bagunça não estava procurando por informações das indústrias. Estranho, no mínimo."
+
+  Livros do meio
+    Pensamento
+    "Platão, Alighieri, Shakespeare... Culto, eu diria.
+    Mas espere.. Hum.. Ah, já suspeitava.
+    As lombadas sujas de pó são apenas de enfeite. A maioria desses livros não deve ter sido aberto uma vez sequer, a julgar pela condição das páginas."
+
+  Livros de baixo
+    Pensamento
+    "Dickens, Verne, Tolstoy.. Eclético.
+    Todos em excelentes condições, mas alguem deveria dar uma faxina aqui, o pó está acumulando.
+    Um desses livros aqui, algo estranho sobre ele.. A lombada parece gasta. *O Principe*[1], de Machiavelli. Nunca li."
+
+  Resposta [1]
+  Livro aberto, mas com suas páginas cortadas no centro, formando uma caixa oca.
+  Dentro está uma chave (Item 1).
 
 Transição para 3.1 e 3.4 por comando do jogador
 
