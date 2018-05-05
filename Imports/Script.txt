@@ -69,7 +69,7 @@ Diálogo
   Aqui era onde Oswald *trabalhava*[1]. Sua vida inteira está nestes papeis, nessas gavetas.
   *Voltei*[2] para casa, e dei de frente com isto, com essa zona, esse absurdo.
   A porta do escritório ainda estava *trancada*[3], e nenhum dos empregados pode sequer entrar aqui.
-  O único compromisso de Oswald era um *jantar*[4] hoje a noite, mas foi *desmarcado*[5] ontem."
+  O único compromisso de Oswald era um jantar hoje a noite, mas foi *desmarcado*[4] ontem."
 
 Pensamento, Reposta [1]
   "Trabalhava? Ela tem tanta certeza assim que ele morreu?"
@@ -90,6 +90,18 @@ Diálogo, Reposta [2]
 
   Pensamento
   "Ela estava visivelmente incomodada com minha pergunta. Mas mulheres poderosas raramente gostam de dar explicações."
+
+Diálogo, Resposta [3]
+  "O escritório só tem um acesso, certo? E essa chave fica com quem?" - Investigador
+
+  "Com o senhor Oswald, é claro. Ninguém mais tem acesso." - Loira
+
+Diálogo, Reposta [4]
+  "Desmarcado, é?" - Investigador
+
+  "Sim. Uma transação financeira que parou de fazer sentido." - Loira
+
+
 
 Transição para 3.2 e 3.3 por comando do jogador
 
