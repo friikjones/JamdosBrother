@@ -1,0 +1,16 @@
+Pessoas:
+
+[Investigador] Nome completo: Henry Schasmann
+Homem de meia-idade, em forma. Anda de social e sobretudo surrado, gravata e chapéu panamá, mesmo dentro de casa.
+Vai direto ao ponto, sem rodeios. Pede licença para fumar, mas acende assim mesmo.
+Vivido, conhece o lado feio do mundo, mas não é ignorante ou agressivo, apensa simples.
+
+[Loira] Nome: Jean L'Claire Fountainne
+Mulher na casa dos 40, alta e magra, estilo femme-fatalle. Veste um vestido até as canelas vermelho vivo, e saltos altos. Usa um chapéu de abas longas para cobrir o rosto, as vezes.
+Mulher inteligente e gentil, mas sem medo de ser dura ou má, se necessário.
+Fala como quem tem uma posição na alta sociedade, que lutou para atingir e não soltará por nada.
+
+[Oswald] Nome: Oswald Franklin Fountainne
+Marido da Loira. Homem, 50 para 60 anos, gordo e quase todo careca. Veste um traje social completo, sem abotoar o blazer. Ainda tem cabelos, mesmo que brancos na lateral da cabeça.
+Homem bruto e seco, sabe o poder que tem. Rico, herdeiro de uma fábrica, multiplicou a fortuna dos pais, sem ter medo de sujar as mãos.
+Quando fala, parece que rosna. Sabe quem é e o poder que tem, e não tem medo de deixar isso claro.

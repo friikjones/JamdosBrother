@@ -1,0 +1,77 @@
+[0 - Tela de Menu]
+
+Imagem de um investigador, sentado numa escrivaninha, lendo jornal, com um cigarro na boca e um como de uísque na mesa.
+
+Botão "Nome do jogo"
+  -> Botão "Iniciar"
+    -> Vai para cena 1
+  -> Botão "Opções"
+    -> Abre as opções
+  -> Botão "Sair"
+    -> Fecha o jogo
+
+[1 - Início]
+
+Imagem do investigador, com um plano mais aberto (ou de costas), mostrando a porta de entrada do escritório (logo de olho no vidro, escrito PI, pro lado de fora)
+
+Diálogo
+"Nessa cidade, nem tudo era oque parecia ser.
+Estava em meu escritório, quando aconteceu. 'Mais um dia nessa pocilga', pensei para mim mesmo.
+Foi quando eu a vi."
+
+Transição automática de cena
+
+[2 - A Loira]
+
+Imagem da Loira, no meio do escritório, porta aberta ao fundo.
+Loira alta, magra, com vestido de peça única até a canela, vermelho vivo e um chapéu de abas longas cobrindo a parte dos olhos.
+Carrega a carteira (daquelas mais alongadas) nas mãos, juntas na frente do corpo.
+
+Diálogo
+"Ouvi dizer que você é o melhor investigador particular dessa cidade. Ouvi errado?" - Loira
+
+"Isso depende, moça, para qual serviço. Deixe eu apostar, perdeu a sua cachorrinha no parque?" - Investigador
+
+"A questão é pouco mais séria que isso, infelizmente. Minha casa foi invadida, e meu marido sumiu.
+Oswald não tem o costume de sair sumir assim, e não sei a quem pedir ajuda." - Loira
+
+"A senhora tem telefone? A telefonista pode te colocar em contato com o delegado. Um senhor de meia-idade não some assim de repente." - Investigador
+
+"A polícia não vai me ajudar, não no MEU tempo. Mas bem, se não é por dinheiro que o senhor trabalha, procurarei quem o faça." - Loira
+
+"Cavalheirismo é para os jovens, minha senhora. Mas bem, aceito o serviço. Deixe-me pegar meu casaco." - Investigador
+
+Transição automática de cena
+
+[3.1 - Centro do escritório]
+
+Centro do escritório de Oswald.
+Mesa pesada de madeira maciça com poltrona de couro. Gavetas jogadas no chão, papel por toda parte.
+Duas janelas ao fundo, uma delas aberta. Uma pilha de caixas e livros não arquivados encostada abaixo da janela. As caixas abaixo da janela parecem jogadas e amassadas em alguns pontos.
+
+
+
+Transição para 3.2 e 3.3 por comando do jogador
+
+[3.2 - Esquerda do escritório]
+
+Lateral esquerda do escritório de Oswald
+
+
+Transição para 3.1 e 3.4 por comando do jogador
+
+[3.3 - Direita do escritório]
+
+Lateral direita do escritório de Oswald
+
+
+Transição para 3.1 e 3.4 por comando do jogador
+
+[3.4 - Fundos do escritório]
+
+Fundo do escritório de Oswald
+
+
+
+Transição para 3.2 e 3.3 por comando do jogador
+Transição para 4 quando a condição for atingida.

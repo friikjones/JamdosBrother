@@ -45,16 +45,6 @@ public class DialogueScript : MonoBehaviour {
                 ResetText();
                 break;
         }
-        /*
-        if(bufferText != "BREAK")
-        {
-            dialogueBox.GetComponent<Text>().text = dialogueBox.GetComponent<Text>().text + bufferText;
-        }
-        else
-        {
-            dialogueBox.SetActive(false);
-        }
-        */
         
     }
 
