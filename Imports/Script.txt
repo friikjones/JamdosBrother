@@ -14,10 +14,10 @@ Botão "Nome do jogo"
 
 Imagem do investigador, com um plano mais aberto (ou de costas), mostrando a porta de entrada do escritório (logo de olho no vidro, escrito PI, pro lado de fora)
 
-Diálogo
-"Nessa cidade, nem tudo era oque parecia ser.
-Estava em meu escritório, quando aconteceu. 'Mais um dia nessa pocilga', pensei para mim mesmo.
-Foi quando eu a vi."
+Pensamento
+  "Nessa cidade, nem tudo era oque parecia ser.
+  Estava em meu escritório, quando aconteceu. 'Mais um dia nessa pocilga', pensei para mim mesmo.
+  Foi quando eu a vi."
 
 Transição automática de cena
 
@@ -28,18 +28,18 @@ Loira alta, magra, com vestido de peça única até a canela, vermelho vivo e um
 Carrega a carteira (daquelas mais alongadas) nas mãos, juntas na frente do corpo.
 
 Diálogo
-"Ouvi dizer que você é o melhor investigador particular dessa cidade. Ouvi errado?" - Loira
+  "Ouvi dizer que você é o melhor investigador particular dessa cidade. Ouvi errado?" - Loira
 
-"Isso depende, moça, para qual serviço. Deixe eu apostar, perdeu a sua cachorrinha no parque?" - Investigador
+  "Isso depende, moça, para qual serviço. Deixe eu apostar, perdeu a sua cachorrinha no parque?" - Investigador
 
-"A questão é pouco mais séria que isso, infelizmente. Minha casa foi invadida, e meu marido sumiu.
-Oswald não tem o costume de sair sumir assim, e não sei a quem pedir ajuda." - Loira
+  "A questão é pouco mais séria que isso, infelizmente. Minha casa foi invadida, e meu marido sumiu.
+  Oswald não tem o costume de sair sumir assim, e não sei a quem pedir ajuda." - Loira
 
-"A senhora tem telefone? A telefonista pode te colocar em contato com o delegado. Um senhor de meia-idade não some assim de repente." - Investigador
+  "A senhora tem telefone? A telefonista pode te colocar em contato com o delegado. Um senhor de meia-idade não some assim de repente." - Investigador
 
-"A polícia não vai me ajudar, não no MEU tempo. Mas bem, se não é por dinheiro que o senhor trabalha, procurarei quem o faça." - Loira
+  "A polícia não vai me ajudar, não no MEU tempo. Mas bem, se não é por dinheiro que o senhor trabalha, procurarei quem o faça." - Loira
 
-"Cavalheirismo é para os jovens, minha senhora. Mas bem, aceito o serviço. Deixe-me pegar meu casaco." - Investigador
+  "Cavalheirismo é para os jovens, minha senhora. Mas bem, aceito o serviço. Deixe-me pegar meu casaco." - Investigador
 
 Transição automática de cena
 
@@ -49,7 +49,47 @@ Centro do escritório de Oswald.
 Mesa pesada de madeira maciça com poltrona de couro. Gavetas jogadas no chão, papel por toda parte.
 Duas janelas ao fundo, uma delas aberta. Uma pilha de caixas e livros não arquivados encostada abaixo da janela. As caixas abaixo da janela parecem jogadas e amassadas em alguns pontos.
 
+Diálogo (Quando entra pela primeira vez na sala)
+  "Minha senhora, antes de me contar tudo, e entenda, a senhora vai me contar tudo, quero que entenda que eu vou te fazer perguntas.
+  E essas perguntas podem não ser divertidas. Mas espero que saiba que meu serviço depende da sua *honestidade*[0]." - Investigador
 
+Pop-up de texto Tutorial
+  "Você pode clicar nas palavras em *destaque*, para fazer perguntas sobre elas."
+Pop-up some quando o jogador clica na [0].
+
+Diálogo, Resposta [0]
+  "Honestidade? Você duvida da minha honestidade, já? Estou te pagando para me ajudar, não me humilhar. Entenda seu lugar." - Loira
+
+  "Calma, minha senhora, calma. Não quis dizer isso.
+  Na minha profissão, é mais comum mentirem para mim do que o oposto, apenas.
+  Enfim, por favor, conte-me oque a senhora sabe." - Investigador
+
+Diálogo
+  "Pois bem...
+  Aqui era onde Oswald *trabalhava*[1]. Sua vida inteira está nestes papeis, nessas gavetas.
+  *Voltei*[2] para casa, e dei de frente com isto, com essa zona, esse absurdo.
+  A porta do escritório ainda estava *trancada*[3], e nenhum dos empregados pode sequer entrar aqui.
+  O único compromisso de Oswald era um *jantar*[4] hoje a noite, mas foi *desmarcado*[5] ontem."
+
+Pensamento, Reposta [1]
+  "Trabalhava? Ela tem tanta certeza assim que ele morreu?"
+
+  Diálogo
+  "Seu marido trabalha com oquê exatamente, senhora..." - Investigador
+
+  "Jean. Jean Fountainne.
+  Meu marido cuida dos negócios da família. As indústrias Fountainne, conhece?
+  É uma posição com sua certa dose de inimigos." - Loira
+
+Diálogo, Reposta [2]
+  "Apenas para confirmar, a senhora estava fora de casa durante o sumiço de seu marido, certo?
+  Se não se importa, onde estava nessa hora?" - Investigador
+
+  "Sim, estava. Sou uma mulher muito atarefada.
+  Estava em uma reunião de negócios, na parte norte da cidade." - Loira
+
+  Pensamento
+  "Ela estava visivelmente incomodada com minha pergunta. Mas mulheres poderosas raramente gostam de dar explicações."
 
 Transição para 3.2 e 3.3 por comando do jogador
 
