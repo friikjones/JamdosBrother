@@ -1,0 +1,51 @@
+[0 - Tela de Menu]
+
+[1 - Início]
+
+[2 - A Loira]
+
+[3.1 - Centro do escritório]
+
+Gatilho 4 - Jean diz que Oswald tem inimigos
+
+Gatilho 5 - Jean diz que estava fora no momento do sumiço
+
+[3.1.1 - Dentro da Gaveta]
+
+Gatilho 1  e Gatilho F 1- Agenda que contradiz Jean
+
+[3.2 - Esquerda do escritório]
+
+Gatilho 2 - Livros na estante são de enfeite
+
+Item 1 - Chave para gaveta trancada
+
+[3.3 - Direita do escritório]
+
+Gatilho F 2 - Livros jogados na mesa são para confundir
+
+Gatilho 3 - Linhagem Fountainne é patriarcal
+
+[3.4 - Fundos do escritório]
+
+Gatilho 6 e Gatilho F 4 - Hewitt é parceiro de negócios do Oswald, e a mulher não gosta.
+
+Gatilho F 5 - Jean deve ter uma cópia da chave
+
+Gatilho F 6 - Jean tenta incriminar Hewitt
+
+Gatilho 7 e Gatilho F 7 - Carta incriminando Jean
+
+Gatilho F 8 - Jean manda ir atrás de Owen
+
+Gatilho 8 - Jean permite mexer em tudo
+
+
+[Condição de vitória]
+Jogador tem q coletar os gatilhos:
+F 1,
+F 4,
+F 6,
+e mais 2 outros F qualquer
+
+Total: 5/8
