@@ -1,0 +1,69 @@
+"Gatilhos de Transição"
+
+[0 - Tela de Menu]
+[1 - Início]
+[2 - A Loira]
+
+[3.1 - Centro do escritório]
+Gatilho 4 - Jean diz que Oswald tem inimigos
+Gatilho 5 - Jean diz que estava fora no momento do sumiço
+
+[3.1.1 - Dentro da Gaveta]
+Gatilho 1- Agenda que contradiz Jean
+
+[3.2 - Esquerda do escritório]
+Gatilho 2 - Livros na estante são de enfeite
+Gatilho 9 - Chave para gaveta trancada
+
+[3.3 - Direita do escritório]
+Gatilho 3 - Linhagem Fountainne é patriarcal
+
+[3.4 - Fundos do escritório]
+Gatilho 6 - Hewitt é parceiro de negócios do Oswald, e a mulher não gosta.
+Gatilho 7- Carta incriminando Jean
+Gatilho 8 - Jean permite mexer em tudo
+
+//-------------------------------------------------------------------------------
+"Finais"
+
+A - Oswald foi raptado, não se sabe por quem
+  Desbloqueia com 2 gatilhos A quaisquer
+
+B - Oswald foi raptado por Hewitt
+  Desbloqueia com 3 gatilhos quaisquer
+
+C - Oswald foi raptado por McMillan
+  Desbloqueia com C3, C6 e mais 3 quaisquer
+
+D - Oswald foi ao encontro de McMillan, Jean participa do esquema
+  Desbloqueia com D2, D5, D6 e 1 quaisquer
+
+"Gatilhos de Final"
+
+[0 - Tela de Menu]
+[1 - Início]
+[2 - A Loira]
+[3.1 - Centro do escritório]
+Gatilho A1 - Jean conta que o escritório foi revirado
+Gatiho A2, B1 e C1 - O escritório fica trancado
+Gatilho B2 - Papeis jogados são referentes as indústrias
+Gatilho D1 - Uísque foi tomado até o fim
+Gatilho A3, B3, C2 - Dá para fugir pela janela
+
+[3.1.1 - Dentro da Gaveta]
+Gatilho C3, D2 - Agenda que contradiz Jean
+
+[3.2 - Esquerda do escritório]
+Gatilho B4, C4, D3 - Livros retirados não tem a ver com a indústria
+
+[3.3 - Direita do escritório]
+Gatilho C5, D4 - Livros jogados não tem a ver com a indústria
+
+[3.4 - Fundos do escritório]
+Gatilho C6, D5 - Carta inocentando Hewitt
+Gatilho D6 - Carta incriminando Jean
+Gatilho A4, B5, C7 - Porta é dificil de arrombar
+Gatilho B6 - Jean incrimina Hewitt
+Gatilho C8, D7 - Investigador percebe Jean incriminando Hewitt
+Gatilho B7 - Jean suspeita de Hewitt
+Gatilho B8, C9 - Escritório foi revirado
