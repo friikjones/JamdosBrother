@@ -12,6 +12,7 @@ public class ObjectsManager : MonoBehaviour
 
     public GameObject[] ObjectsToManage;
     public GameObject[] UIRenderObjects;
+    public bool[] BoolTrigger; // Serve para fazer a leitura dos triggers, precisa testa com os objetos em si (INCOMPLETO)
 
 	
 	void Start ()
@@ -19,15 +20,18 @@ public class ObjectsManager : MonoBehaviour
         //pega o script DisplayImage, do GO Display Image, para monitorar a tela que esta selecionada
         currentDisplay = GameObject.Find("displayImage").GetComponent<DisplayImage>();
         RenderUI();
-	}
+
+
+    }
 	
 	// Update is called once per frame
 	void Update ()
     {
         ManageObjects();
+        CheckTrigger();
 	}
 
-    void ManageObjects()//ele avaliará os objetos que estão na cena e determinar quais estão ativos
+    void ManageObjects()//ele avaliará os objetos que estão na cena e determinar quais estão ativos (COMPLETO)
     {
         for(int i=0;i<ObjectsToManage.Length; i++)
         {
@@ -47,11 +51,23 @@ public class ObjectsManager : MonoBehaviour
     // esse método inativa todos os objetos interagíveis do jogo, devendo eles serem 
     //acrescidos no inspetor.
 
-    void RenderUI()
+    void RenderUI()// Desliga os objetos ao iniciar o jogo (COMPLETO)
     {
         for (int i=0; i< UIRenderObjects.Length; i++)
         {
             UIRenderObjects[i].SetActive(false);
+        }
+    }
+
+
+    void CheckTrigger()//verifica quais os objetos foram interagidos e armazena (via true/false) - COMPLETO
+    {
+        for (int i = 0; i < UIRenderObjects.Length; i++)
+        {
+            if (UIRenderObjects[i].activeInHierarchy==true)
+            {
+                BoolTrigger[i] = true;
+            }
         }
     }
 }

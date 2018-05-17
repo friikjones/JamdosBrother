@@ -13,7 +13,7 @@ public class ChangeView : MonoBehaviour, IInterectable
 
     public string SpriteName;
 
-    public void Interact(DisplayImage currentDisplay)
+    public void Interact(DisplayImage currentDisplay) //(COMPLETO)
     {
         //ao interagir com o GO, ele irá puxar a cena específica do close desejado.
         currentDisplay.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Sprites/" + SpriteName);

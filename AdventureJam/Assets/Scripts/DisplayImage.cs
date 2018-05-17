@@ -17,7 +17,7 @@ public class DisplayImage : MonoBehaviour
     //abaixo, será feito um código que mudará o estado do layer vinculado ao DisplayImage (GO), de forma que ele
     //ignore novos raycasts, o que faz com que o jogador só possa dar um zoom por vez no jogo
 
-    public enum State
+    public enum State //(COMPLETO)
     {
         normal,zoom, changeView //seta os estados do enumerador State
     };
@@ -33,7 +33,7 @@ public class DisplayImage : MonoBehaviour
         currentWall = 1;
     }
 
-     void Update()
+     void Update() //(COMPLETO)
     {
         //caso esse if seja verdadeiro, significa que alteramos o currentWall, ou seja, pressionamos um dos botões
         if (currentWall!= previousWall)
@@ -50,7 +50,7 @@ public class DisplayImage : MonoBehaviour
     //quando um dos botoes for pressionado, haverá uma alteração no valor da variável CurrentWall e o código 
     //abaixo transporta essa numeração para a variável currentWall aqui, alterando a tela.
 
-    public int CurrentWall
+    public int CurrentWall //(COMPLETO)
     {
         get { return currentWall; } //pega do Game Object qual o valor do currentWall
         set{//analisa o input do jogador, pelas setas e atua na mudança da imagem que esta no display.

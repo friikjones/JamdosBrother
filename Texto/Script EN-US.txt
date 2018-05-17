@@ -251,131 +251,131 @@ Também é visível a porta de entrada do escritório aberta.
 Interação
   Chapeleira
     Pensamento -> Retorna a Cena 3.4
-      "Um *casaco de peles masculino*[1], provavelmente de Oswald, e o chapéu da Sra. Fountainne.
-      De fato, a noite não está tão fria para um casaco desses.
-      O blazer do Sr. Fountainne não está pendurado. Será que ele foi levado de blazer? Parece estranho, não?"
+      "A *male fur coat*[1], probably Oswald's, and Ms. Fountainne's hat.
+      Indeed, it's not so cold of a night.
+      Mr. Fountainne's suit jacket isn't on the hanger. Maybe he was wearing when he got kidnapped. Sounds odd, though."
 
     Pensamento, Resposta [1]
-      "Olhar os bolsos do casaco deste homem não é o momento mais alto da minha carreira, mas vamos lá.
-      Deixe me ver.. Uma carta, de um L.Hewitt."
+      "Going through a man's pocket isn't exactly the highest point of my carrer, but still.
+      Look at this, a letter from a L.Hewitt."
 
       Carta
-      'Meu caro amigo, vendo por meio dessa lhe trazer ótimas notícias.
-      Nossos planos de uma fusão parecem cada vez mais próximos.
-      Já conversei com meu conselho, e aprovaram.
-      Uma pena que esta decisão tem lhe dado tanta dor de cabeça em casa, mas confio que seu senso para negócios seja mais forte que seu lado emocional.
-      Você nunca foi um homem a se dobrar por ninguém, muito menos pela sua esposa.' (Gatilho C6, D5)
+      'My dear friend, I write you to bring you great news.
+      Our merger seem to get closer by the hour.
+      Already talked to the board, and our plan was approved.
+      It's is a pity that this decision has been giving you much of a headache at home, but I trust that your nose for business is stronger than your emotions.
+      You were never to bend for any one, least of all for your wife.' (Gatilho C6, D5)
 
     Carta
       Pensamento
-        "O que é isso no chão? Parece ter caído do casaco de Jean. Deixe-me pegar isso..
-        É uma carta, endereçada a J.L.F.
-        Espere, J? Jean?
-        Isso vai ser interessante."
+        "Hey, look. This seems to fallen out of Jean's coat. Let me get it...
+        It's a letter, addressed to a J.L.F.
+        Hold on, J? Jean?
+        This is going to get interesting."
 
         Carta
-        'Querida Jean, quero que saiba que seus esforços para atrapalhar a fusão das indústrias Fountainne não passou sem nota.
-        Tenho uma proposta de negócios a você. Cancelarei a reunião com Oswald, e remarcarei para amanhã.
-        Me encontre hoje, no mesmo local, as 18h, e discutiremos os detalhes.
-        Atenciosamente,
+        'Dear Jane, I'd like you to know that your efforts to mess up the merger of Fountainne industries was not gone unnoticed.
+        I have a business proposition for you. I'll cancel my meeting with Oswald, and reschedule for tomorrow.
+        Met me today, same time and place, and we'll discuss details.
+        Sincerely,
         Owen H. McMillan' (Gatilho D6)
 
 
   Porta
     Pensamento -> Retorna a Cena 3.4
-      "Essas portas de casarão são sempre maiores e mais pesadas do que necessário. São seguras, pelo menos.
-      Dificilmente alguém arrombaria essa porta, e não há sinais disso. Ela deveria estar *destrancada*[2]
-      Ou isso, ou alguem entrou de outra forma.." (Gatilho A4, B5, C7)
+      "This old manor house are always larger and heavier than necessary. They are safe, at least.
+      It's unlikely that someone would break in this door, and there's no sign of it. It was likely *unlocked*[2].
+      Either that, or whoever did this got in another way.. The window, maybe." (Gatilho A4, B5, C7)
 
     Diálogo, Resposta [2] -> Retorna a Cena 3.4
-      "Senhora, o Sr. Oswald costuma trancar essa porta enquanto trabalha?
-      Se sim, quem mais teria essa chave?" - Investigador
+      "Ma'am, Mr. Oswald usually locks this door when he's working?
+      If so, who else has this key?" - Henry
 
-      "Sim. Oswald jamais deixaria essa porta destrancada.
-      As únicas pessoas que entram nessa sala são Oswald, e o empregado que vier fazer faxina.
-      Mesmo assim, somente sob a supervisão do Sr. Oswald, ou *minha*[3]." - Loira
+      "Yes. Oswald would never leave this door unlocked.
+      The only people who enter this room are Oswald, myself and the house keepers.
+      Even so, only under Mr. Oswald's supervision, or *my own*[3]." - Jean
 
     Resposta [3] -> Retorna a Cena 3.4
       Diálogo
-      "Então a senhora tem uma chave." - Investigador
+      "So you do have a key, ma'am." - Henry
 
-      "Não. Oswald deixa a dele comigo quando é o caso. Não há cópias dessa chave." - Loira
+      "No, I don't. Oswald leaves his with me when needed. There are no copies of his keys." - Jean
 
       Pensamento
-      "Que Oswald é meticuloso com quem entra na sala eu não duvido. Mas eu não confio nessa mulher.
-      Orgulhosa como ela é, improvável não ter feito uma cópia." (Gatilho 6)
+      "Oswald being thorough with who's accessing his office I buy. I don't buy what she's selling, thought.
+      Full of pride as she is, she's unlikely to have not made a copy. She was alone with the key several times." (Gatilho 6)
 
   Loira
     Diálogo -> Retorna a Cena 3.4
-    "Já descobriu quem levou meu marido, Sr. Investigador?" - Loira
+    "Have you already figured who took my husband, Mr. PI?" - Jean
 
     Pensamento (3.4.A)
-    "*Amigos*[1]
-    *Inimigos*[2]
-    *Estado dos negócios*[3]
-    *Ameaças*[4]
-    *Suspeitos*[5]"
+    "*Friends*[1]
+    *Enemies*[2]
+    *How's business*[3]
+    *Threats*[4]
+    *Suspects*[5]"
 
     Diálogo
-    "Minha senhora, devo perguntar de qualquer maneira, tenho permissão para acessar qualquer parte do escritório, certo?" - Investigador
+    "Ma'am, I should ask anyway, do I have permission to check anything in this office, right?" - Henry
 
-    "Claro, fique a vontade." - Loira (Gatilho 8)
+    "Sure, be my guest." - Jean (Gatilho 8)
 
     Resposta [1] -> Retorna a Pensamento 3.4.A
       Diálogo
-      "O sr. Fountainne é um homem de negócios, eu vejo. Um homem desse porte deve ser bem conectado." - Investigador
+      "Mr. Fountainne is a business man, I see. A man this powerful must be well connected." - Henry
 
-      "Isso é uma pergunta, Sr. Investigador?
-      Sim, claro. Temos o costume de manter contato com todas as pessoas que importam nessa cidade.
-      Portas não costumam permanecer fechadas para o Sr. Oswald." - Loira
+      "Is that a question, Mr. PI?
+      Yes, of course. We have the habit of keeping in touch with everyone that matters in this city.
+      Door don't usually remain closed for Mr. Oswald." -Jean
 
     Resposta [2] -> Retorna a Pensamento 3.4.A
       Diálogo
-      "A familia Fountainne é poderosa, pelo jeito. Assumo que isso não se faz sem quebrar alguns ovos. Ou pessoas." - Investigador
+      "The Fountainne family is a powerful one, so it seems. I suppose that does not come without breaking a few eggs. Or people." - Henry
 
-      "Oque você está tentando insunuar? Oswald tem uma reputação impecável, não é um detetive barato que a vai manchar.
-      A resposta que você está procurando é sim. Sim, Oswald tem inimigos.
-      Particularmente, a família Hewitt tem se mostrado bastante na compra de parte das indústrias.
-      Isso gerou algumas discussões acaloradas, pra dizer o mínimo, Oswald me disse." (Gatilho B6)
+      "What are you implying? Oswald has a spotless reputation, no mere detective for hire would stain it.
+      The answer you are looking for is yes. Yes, Oswald has enemies.
+      Particularly, the Hewitt family has shown great interest in buying part of our business.
+      That has lead to somewhat heat discussions, to say the least, Oswald told me." (Gatilho B6)
 
       Pensamento
-      "Hewitt? Eu já ouvi esse nome antes.. Eles são donos de indústria também."
+      "Hewitt? I've heard that name before.. They own industries too."
 
       Pensamento, com gatilho 6
-      "Acredito que esta mulher esteja tentando jogar a culpa do sumiço de Oswald nesse tal de Hewitt.
-      Por que alguem teria todo esse trabalho para ajeitar uma fusão de empresas e depois sumir com o cara?" (Gatilho C8, D7)
+      "I believe this lady is trying to frame this Hewitt guy for her husband's disappearance.
+      Why someone would go all this way to merge companies, just to take out the guy?" (Gatilho C8, D7)
 
     Resposta[3]
       Diálogo
-      "Os negócios vão bem, senhora Fountainne?" - Investigador
+      "How is business going, Ms. Fountainne?" - Henry
 
-      "Ótimos, sr. Investigador.
-      Oswald tem mais ambição que qualquer um dessa família já teve.
-      Infelizmente ele tem a cabeça mais dura que essa família já viu, também..
-      Desculpe, eu não deveria ter exposto isso a você, não é relevante para o momento.
-      Já cansei deste assunto, continue seu trabalho." - Loira
+      "Great, Mr. PI.
+      Oswald has more ambition than anyone in this family ever had.
+      Unfortunately he's also the most stubborn, too..
+      I'm sorry, I should not have told you this, it's not relevant at the time.
+      I'm tired of this conversation, resume your work." - Jean
 
     Resposta[4]
       Diálogo
-      "Senhora Fountainne, você ou seu marido receberam ameaças de morte ou algo similar nos últimos dias?" - Investigador
+      "Miss Fountainne, you or your husband received any death threats or something similar this past few days?" - Henry
 
-      "Fora as usuais, você diz?
-      Recebemos ameaças todos os dias. Algumas claramente sem sentido, outras de empregados que foram demitidos.
-      Toda a sorte de ralé que vê nosso espólio acha que tem direito de falar." - Loira
+      "Besides the usual, you mean?
+      We get death threats every day. Some are clearly nonsense, some are from past employees.
+      All sort of scum that sees what we accomplished thinks they have the right to talk." - Jean
 
     Resposta[5]
       Diálogo
-      "Afinal, a senhora tem alguém de quem suspeita?" - Investigador
+      "After all, do you have anyone you suspect?" - Henry
 
-      "Para ser sincera, Oswald esteve em uma almoço ontem mesmo, com Louis da família Hewitt.
-      Os negócios entre os dois não andam bem, não entendo por que este maldito continua a frequentar esta casa..
-      Pois bem, os animos se axaltaram, e ao final do almoço ficou claro, pelo menos para mim, que este homem não estava de brincadeira." - Loira (Gatilho B7)
+      "To be honest, I do. Oswald was in a business lunch yesterday, with Louis Hewitt.
+      Business between them are not going well, and I don't understand why this damned man keeps visiting this house.
+      In any case, this got heated, and by the lunch's end, it was pretty clear that this man was not messing around anymore." - Jean (Gatilho B7)
 
-      "Então a senhora acredita que este tah de Owen esteja planejando algo?" - Investigador
+      "So you think that this Louis person is up to something?" - Henry
 
-      "Planejando, sr. Investigador?
-      Meu marido sumiu, e seu escritório foi revirado.
-      Ache este miserável e o traga a justiça, sr. Investigador" - Loira (gatilho B8, C9)
+      "Up to, mr. PI?
+      M husband is missing, his office ransacked.
+      Find that goddamned man and get his to justice, mister." - Jean (gatilho B8, C9)
 
 Transição para 3.2 e 3.3 por comando do jogador
 

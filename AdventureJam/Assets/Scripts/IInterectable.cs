@@ -7,7 +7,7 @@ using UnityEngine;
 //a idéia desse código aqui precisa ser discutida.
 //De acordo com o tutorial, todos os GO's "interagíveis" será feito através dessa interface (video 2-15:00).
 
-public interface IInterectable 
+public interface IInterectable  //(COMPLETO)
 {
     void Interact(DisplayImage currentDisplay);
 }

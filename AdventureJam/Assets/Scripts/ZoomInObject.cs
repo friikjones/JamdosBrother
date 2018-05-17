@@ -9,7 +9,7 @@ public class ZoomInObject : MonoBehaviour, IInterectable
     public float ZoomRatio = 0.5f;
 
     //o método abaixo é executado a partir do código Interact. Quando ele é chamado, aplica zoom no objeto
-    public void Interact(DisplayImage currentDisplay)
+    public void Interact(DisplayImage currentDisplay) //COMPLETO
     {
         //calcula o tamanho da amplitude câmera;
         Camera.main.orthographicSize *= ZoomRatio;
@@ -25,7 +25,7 @@ public class ZoomInObject : MonoBehaviour, IInterectable
         ConstrainCamera();
     }
 
-    void ConstrainCamera() //restringe o campo de zoom que o jogo pode ter, que seria o limite da tela.
+    void ConstrainCamera() //restringe o campo de zoom que o jogo pode ter, que seria o limite da tela. (COMPLETO)
     {
         var height = Camera.main.orthographicSize; //define a altura da câmera
         var width = height * Camera.main.aspect;//define largura

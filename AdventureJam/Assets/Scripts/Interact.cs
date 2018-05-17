@@ -18,7 +18,7 @@ public class Interact : MonoBehaviour
         currentDisplay = GameObject.Find("displayImage").GetComponent<DisplayImage>();	
 	}
 	
-	void Update ()
+	void Update () //(COMPLETO)
     {// eu devo verificar se o botão esquerdo foi pressionado
 
         if (Input.GetMouseButtonDown(0))

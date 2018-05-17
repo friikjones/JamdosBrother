@@ -8,7 +8,7 @@ public class ButtonBehavior : MonoBehaviour
 {//a ideia do código é manipular quando os botões estarão ativos/inativos para cada tipo de situação, 
  //como no zoom.
 
-        public enum ButtonId
+        public enum ButtonId //COMPLETO
     {//controlará os estados dos botões
         roomChangeButton, returnButton
     }
@@ -29,7 +29,7 @@ public class ButtonBehavior : MonoBehaviour
         Display();
 	}
 
-    void HideDisplay()//esconde os botões, de acordo com o estado da tela (zoom,normal)
+    void HideDisplay()//esconde os botões, de acordo com o estado da tela (zoom,normal) - COMPLETO
     {//no if abaixo, a tela esta na condição normal, logo o bitão de retorno não é neessário
         if(currentDisplay.CurrentState==DisplayImage.State.normal && ThisButtonId == ButtonId.returnButton)
         {//constrói um nova cor, no caso, como quero desaparecer com o botão, o valor 0 o torna transparente
@@ -54,7 +54,7 @@ public class ButtonBehavior : MonoBehaviour
         }
     }
 
-    void Display()//mostra os botões novamente, de acordo com o seu estado
+    void Display()//mostra os botões novamente, de acordo com o seu estado (COMPLETO)
     {
         //nessa condição, habilita o botão de retornar, pois a tela esta no modo zoom ou em change view
         if (!(currentDisplay.CurrentState == DisplayImage.State.normal) && ThisButtonId == ButtonId.returnButton)

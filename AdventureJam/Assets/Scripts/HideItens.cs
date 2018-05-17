@@ -25,7 +25,7 @@ public class HideItens : MonoBehaviour
         HideDisplayItem();
 	}
 
-    void HideDisplayItem()
+    void HideDisplayItem() //(COMPLETO)
     {
         //caso o jogador clique fora do objeto.
         if(Input.GetMouseButtonDown(0) && !UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
